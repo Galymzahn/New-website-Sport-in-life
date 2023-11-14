@@ -1,0 +1,323 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("assets/Fon-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background-color: #2d545e;
+    color: #e1b382;
+    text-align: center;
+    padding: 20px;
+    }
+    
+
+
+h1 {
+    margin: 0;
+    justify-content: center;
+}
+
+nav {
+    background-color: #12343b;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+.button {
+    padding: 10px 20px;
+    background-color: #2d545e;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+section {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #e8f9fd;
+        border-radius: 5px;
+        justify-content: center;
+}
+h2 {
+    color: green;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}.flex {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.sport-block {
+    width: 300px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    background-color: #12343b;
+}
+
+.sport-block h3 {
+    color: green;
+    
+}
+
+.sport-block p {
+    color: white;
+    font-size: 125%;
+}
+
+
+@media screen and (min-width: 768px) {
+    .flex {
+        justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap; 
+
+    }
+
+    .sport-block {
+        width: 23%;
+    }
+}
+@media screen and (max-width: 980px) {
+    
+    body {
+        font-size: 14px; 
+    }
+
+    .sport-block {
+        width: 100%; 
+    }
+}
+@media screen and (max-width: 650px) {
+    
+    body {
+        font-size: 14px; 
+    }
+
+    .sport-block {
+        width: 100%; 
+    }
+}@media screen and (max-width: 480px) {
+    body {
+        font-size: 10px; 
+    }
+    .sport-block {
+        width: 23%;
+    }}
+
+.img-1 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.link{
+    color: blue;
+}nav ul li:hover {
+    
+    transform: scale(1.2); 
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+nav ul li:hover a {
+    color: #364c87; 
+}
+
+h2 {
+    color: wheat;
+    
+    
+}
+
+
+
+.container {
+    width: 70%;
+    margin: 20px auto;
+    overflow: hidden; /* Clear float */
+    justify-content: center;
+}
+
+h2 {
+    
+    color: green;
+}
+
+table {
+    width: 70%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    
+    
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #2272FF;
+}
+
+.match-day,
+.info-block {
+    width: auto;
+    margin: 20px auto;
+    background-color: #364c87;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+
+.match-day h2,
+.info-block h2 {
+    color: #fff;
+}
+.last-match {
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 50%;
+}
+
+.last-match:hover {
+    background-color: #873645;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-info,
+.social-media {
+    flex: 1;
+}
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.copyright {
+    margin-top: 20px;
+}
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 5px;
+    transition: color 0.3s ease; 
+}
+
+.social-media a:hover {
+    color: rgb(135, 24, 116); 
+}
+#lebron-photo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.aboutBasketball{
+    color: white ;
+}
+.basketballsection{
+    background-color:#8B0000 ;
+}
+.photo-container{
+    width: 900px;
+    display: flex;
+    overflow-x: scroll;
+    
+}.photo-container::-webkit-scrollbar{
+    display: none;
+}
+.photo-container .gallery{
+    
+    max-width: 100%;
+    height: auto;
+    
+    display: flex;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding: 10px;
+    flex: none;
+
+}
+.photo-container .gallery img{
+    width: 100%;
+    height: 100%;
+}
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10% auto;
+}.controls #rightBtn,.controls #leftBtn{
+    width: 70px;
+    cursor: pointer;
+    margin: 30px;
+}
+.noisy-news{
+    color: #000;
+    background-color: #8B0000;
+    justify-content: center;
+    padding: 20px 20px;
+    text-align: center;
+}.main{
+    display: flex;
+}
+
+.img-aboutme{
+    width: 200px;
+    margin: 20px 20px;
+    border-radius: 10%;
+    border: thick double #32a1ce;
+
+}.con ,.talks{
+    background-color: white;
+    color: #2272FF;
+    border: thick double #32a1ce;
+
+}
